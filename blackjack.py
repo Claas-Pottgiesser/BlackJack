@@ -21,7 +21,7 @@ def gewinner(spieler_hand_value, dealer_hand_value):
         return "Spieler gewinnt!"
     elif 21 <= spieler_hand_value < dealer_hand_value:
         return "Spieler gewinnt!"
-    elif dealer_hand_value > 21 >= spieler_hand_value
+    elif dealer_hand_value > 21 >= spieler_hand_value:
         return "Spieler gewinnt!"
     else:
         return "Dealer gewinnt!"
